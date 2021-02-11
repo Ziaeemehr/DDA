@@ -1,0 +1,10 @@
+Corning Eagle 2000 Alkaline Earth Boro-Aluminosilicate glass
+1 2 3 0 0 = columns for wave, Re(n), Im(n), eps1, eps2
+wave(um) Re(m)  Im(m)
+0.4348	1.5170	2.e-6
+0.4800	1.5131	2.e-6
+0.4861	1.5126	2.e-6
+0.5461	1.5090	2.e-6
+0.5893	1.5068	2.e-6
+0.6438	1.5050	2.e-6
+0.6563	1.5046	2.e-6

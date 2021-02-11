@@ -1,0 +1,6 @@
+ DDSCAT --- DDSCAT 7.1.0 [10.03.03]   
+ TARGET --- Cyl.prism, NAT=  20856 NFAC= 316 NLAY=  66 asp.ratio= 3.2904      
+ GPFAFT --- method of solution 
+ GKDLDR --- prescription for polarizabilities
+ CYLINDER1 --- shape 
+  20856 = NAT0 = number of dipoles

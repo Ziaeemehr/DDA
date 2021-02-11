@@ -1,0 +1,39 @@
+ DDSCAT --- DDSCAT 7.1.0 [10.02.04]   
+ TARGET --- Slab+disk                                                         
+ GPFAFT --- method of solution 
+ LATTDR --- prescription for polarizabilies
+ DSKRCTPBC --- shape 
+    3200     = NAT0 = number of dipoles
+  0.10939048 = d/aeff for this target [d=dipole spacing]
+    0.004994 = d (physical units)
+----- physical extent of target volume in Target Frame ------
+     -0.049939      0.039951 = xmin,xmax (physical units)
+     -0.039951      0.039951 = ymin,ymax (physical units)
+     -0.039951      0.039951 = zmin,zmax (physical units)
+  AEFF=      0.045652 = effective radius (physical units)
+  WAVE=      0.532000 = wavelength (physical units)
+K*AEFF=      0.539174 = 2*pi*aeff/lambda
+n= ( 0.5280 ,  2.2300),  eps.= ( -4.6942 ,  2.3549)  |m|kd=  0.1352 for subs. 1
+n= ( 2.0446 ,  0.0140),  eps.= (  4.1802 ,  0.0572)  |m|kd=  0.1206 for subs. 2
+   TOL= 1.000E-05 = error tolerance for CCG method
+( 1.00000  0.00000  0.00000) = target axis A1 in Target Frame
+( 0.00000  1.00000  0.00000) = target axis A2 in Target Frame
+( 0.02949 -0.05108  0.00000) = k vector (latt. units) in TF
+( 0.86603, 0.00000)( 0.50000, 0.00000)( 0.00000, 0.00000)=inc.pol.vec. 1 in TF
+( 0.00000, 0.00000)( 0.00000, 0.00000)( 1.00000, 0.00000)=inc.pol.vec. 2 in TF
+( 0.50000  0.86603  0.00000) = target axis A1 in Lab Frame
+(-0.86603  0.50000  0.00000) = target axis A2 in Lab Frame
+( 0.05898  0.00000  0.00000) = k vector (latt. units) in Lab Frame
+( 0.00000, 0.00000)( 1.00000, 0.00000)( 0.00000, 0.00000)=inc.pol.vec. 1 in LF
+( 0.00000, 0.00000)( 0.00000, 0.00000)( 1.00000, 0.00000)=inc.pol.vec. 2 in LF
+ BETA =  0.000 = rotation of target around A1
+ THETA= 60.000 = angle between A1 and k
+  PHI =  0.000 = rotation of A1 around k
+ absorption coeff.  iter  mxiter
+ JO=1:  5.2812E-01    36   133
+ JO=2:  4.3307E-01    33   133
+ mean:  4.8060E-01
+            Mueller matrix elements for selected scattering directions in Target Frame
+ theta    phi    Pol.    S_11        S_12        S_21       S_22       S_31       S_41
+ 60.00 180.00  0.25654  3.1927E-01  8.1907E-02  8.191E-02  3.193E-01 -2.660E-07 -2.090E-09
+120.00 180.00  0.64675  2.0014E-01 -1.2944E-01 -1.294E-01  2.001E-01  2.967E-07 -4.936E-08

@@ -1,0 +1,38 @@
+ DDSCAT --- DDSCAT 7.1.0 [10.02.04]   
+ TARGET --- Multisphere cluster containing  11188 dipoles                     
+ GPFAFT --- method of solution 
+ GKDLDR --- prescription for polarizabilies
+ SPHRN_PBC --- shape 
+   11188     = NAT0 = number of dipoles
+  0.07207402 = d/aeff for this target [d=dipole spacing]
+    0.007207 = d (physical units)
+----- physical extent of target volume in Target Frame ------
+     -0.114635      0.116001 = xmin,xmax (physical units)
+     -0.118559      0.097663 = ymin,ymax (physical units)
+     -0.143794      0.130087 = zmin,zmax (physical units)
+  AEFF=      0.100000 = effective radius (physical units)
+  WAVE=      0.632800 = wavelength (physical units)
+K*AEFF=      0.992918 = 2*pi*aeff/lambda
+n= ( 1.3300 ,  0.0100),  eps.= (  1.7688 ,  0.0266)  |m|kd=  0.0952 for subs. 1
+   TOL= 1.000E-05 = error tolerance for CCG method
+( 1.00000  0.00000  0.00000) = target axis A1 in Target Frame
+( 0.00000  1.00000  0.00000) = target axis A2 in Target Frame
+( 0.07156  0.00000  0.00000) = k vector (latt. units) in TF
+( 0.00000, 0.00000)( 1.00000, 0.00000)( 0.00000, 0.00000)=inc.pol.vec. 1 in TF
+( 0.00000, 0.00000)( 0.00000, 0.00000)( 1.00000, 0.00000)=inc.pol.vec. 2 in TF
+( 1.00000  0.00000  0.00000) = target axis A1 in Lab Frame
+( 0.00000  1.00000  0.00000) = target axis A2 in Lab Frame
+( 0.07156  0.00000  0.00000) = k vector (latt. units) in Lab Frame
+( 0.00000, 0.00000)( 1.00000, 0.00000)( 0.00000, 0.00000)=inc.pol.vec. 1 in LF
+( 0.00000, 0.00000)( 0.00000, 0.00000)( 1.00000, 0.00000)=inc.pol.vec. 2 in LF
+ BETA =  0.000 = rotation of target around A1
+ THETA=  0.000 = angle between A1 and k
+  PHI =  0.000 = rotation of A1 around k
+ absorption coeff.  iter  mxiter
+ JO=1:  3.2353E-05  2500 10001
+ JO=2:  3.6046E-05  2500 10001
+ mean:  3.4200E-05
+            Mueller matrix elements for selected scattering directions in Target Frame
+ theta    phi    Pol.    S_11        S_12        S_21       S_22       S_33       S_34       S_43       S_44
+  0.00   0.00  0.00001  9.9987E-01  7.9203E-06  7.920E-06  9.999E-01 -9.999E-01  2.549E-05 -2.549E-05 -9.999E-01
+180.00   0.00  0.07931  8.1848E-08 -6.3209E-09 -6.321E-09  8.167E-08  8.142E-08 -5.495E-09  5.495E-09  8.124E-08

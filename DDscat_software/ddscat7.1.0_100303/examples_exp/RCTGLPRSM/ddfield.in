@@ -1,0 +1,3 @@
+'w000r000k000.pol1'	= name of file with stored polarization
+5.00e-3 = gamma (interaction cutoff parameter)
+-64. 0.  0.  32  0  0 481   = xa,ya,za , xb,yb,zb , NAB

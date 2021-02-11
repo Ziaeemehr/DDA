@@ -1,0 +1,144 @@
+ourania3.home
+Sun Feb  7 19:31:07 EST 2010
+make: `ddscat' is up to date.
+/u/draine/work/DDA/ver7.1.0/examples/RCTGL_PBC
+ >DDSCAT NUMPROC=   1                                                          
+ >DDSCAT --- DDSCAT 7.1.0 [10.02.04]   
+ >DDSCAT     Single-precision version                                          
+ >REAPAR  =========== Parameter file for v7.1.0 ===================            
+ >  **** Preliminaries ****                                               
+ >REAPAR NOTORQ - do not compute torques                                       
+ >REAPAR PBCGS2 - CCG Method                                                   
+ >REAPAR GPFAFT - using GPFA package from Clive Temperton                      
+ >REAPAR LATTDR - Draine & Goodman (1993) LDR for alpha
+ >REAPAR NOTBIN - Unformatted binary dump option                               
+ >REAPAR **** Initial Memory Allocation ****                                   
+ >REAPAR allow MXNX,MXNY,MXNZ=   100   100   100 for target generation         
+ >REAPAR **** Target Geometry and Composition ****                             
+ >REAPAR RCTGL_PBC - Shape definition                                          
+ >TARGET   16.00000 = SHPAR(1)                                                 
+ >TARGET    1.00000 = SHPAR(2)                                                 
+ >TARGET    1.00000 = SHPAR(3)                                                 
+ >TARGET    1.00000 = SHPAR(4)                                                 
+ >TARGET    1.00000 = SHPAR(5)                                                 
+ >REAPAR  NCOMP=   1                                                           
+ >REAPAR  1 ../diel/m1.33_0.01                                                 
+ >REAPAR **** Error Tolerance ****                                             
+ >REAPAR  1.000E-05 = TOL = max. acceptable normalized residue |Ax-E|/|E|      
+ >  **** Integration limiter for PBC calculations ****                    
+ >REAPAR  1.000E-02 = GAMMA = replica dipole summation limiter for PBC         
+ >  **** Angular resolution for calculation of <cos>, etc. ****           
+ >REAPAR  1.0000 = ETASCA (parameter controlling number of scattering angles   
+ >  **** Wavelengths (micron) ****                                        
+ >REAPAR   1 wavelengths from  0.5000 to  0.5000                               
+ >DIVIDE  Only one element initialized 
+ >  **** Effective Radii (micron) ****                                    
+ >REAPAR   1 eff. radii from  0.0313 to  0.0313                                
+ >DIVIDE  Only one element initialized 
+ >  **** Define Incident Polarizations ****                               
+ >REAPAR IORTH= 2                                                              
+ >REAPAR **** Specify which output files to write ****                         
+ >REAPAR IWRKSC= 1                                                             
+ >REAPAR IWRPOL= 0                                                             
+ >  **** Prescribe Target Rotations ****                                  
+ >  **** Specify first IWAV, IRAD, IORI (normally 0 0 0) ****             
+ >REAPAR Do orthogonal polarization for each case 
+ >REAPAR    0.00   0.00 Range of BETA values ; NBETA =   1                     
+ >REAPAR    0.00   0.00 Range of THETA values; NTHETA=   1                     
+ >REAPAR    0.00   0.00 Range of PHI values ;   NPHI =   1                     
+ >  **** Select Elements of S_ij Matrix to Print ****                     
+ >  **** Specify Scattered Directions ****                                
+ >REAPAR    1 = number of diffraction orders for transmission                  
+ >DDSCAT Allocate memory for first call to TARGET...                           
+ >DDSCAT allocating     5.72 MB for IXYZ0;  total=    41.58 MB                 
+ >DDSCAT allocating     5.72 MB for ICOMP;  total=    47.30 MB                 
+ >DDSCAT allocating     1.91 MB for IOCC;   total=    49.21 MB                 
+ >DDSCAT allocating     5.72 MB for ISCR1;  total=    54.93 MB                 
+ >DDSCAT allocating     3.81 MB for BETADF; total=    58.75 MB                 
+ >DDSCAT allocating     3.81 MB for PHIDF;  total=    62.56 MB                 
+ >DDSCAT allocating     3.81 MB for THETADF;total=    66.38 MB                 
+ >DDSCAT allocating     3.81 MB for SCRRS2; total=    70.19 MB                 
+ >TARGET: Rectangular prism; NX,NY,NZ=  16   1   1                          
+             16 = NAT0 = number of dipoles in target
+ >DDSCAT returned from TARGET:                                                 
+ >DDSCAT      1    16 = min, max values of JX                                  
+ >DDSCAT      1     1 = min, max values of JY                                  
+ >DDSCAT      1     1 = min, max values of JZ                                  
+ >DDSCAT  -16.50000  -1.00000  -1.00000 = X0(1-3)                              
+ >DDSCAT  --- physical extent of target volume (occupied sites) ---            
+ >DDSCAT    -16.00000     0.00000 = min, max values of x/d                     
+ >DDSCAT     -0.50000     0.50000 = min, max values of y/d                     
+ >DDSCAT     -0.50000     0.50000 = min, max values of z/d                     
+ >EXTEND: target extent in x,y,z directions =   16,    1,    1 (in Target Frame)
+ >DDSCAT returned from EXTEND:                                                 
+ >DDSCAT      1    16 = min, max values of JX                                  
+ >DDSCAT      1     1 = min, max values of JY                                  
+ >DDSCAT      1     1 = min, max values of JZ                                  
+ >DDSCAT  ------- physical extent of target volume -------                     
+ >DDSCAT    -16.00000     0.00000 = min, max values of x/d                     
+ >DDSCAT     -0.50000     0.50000 = min, max values of y/d                     
+ >DDSCAT     -0.50000     0.50000 = min, max values of z/d                     
+ >DDSCAT Allocate memory required for this problem...                          
+ >DDSCAT allocating     0.00 MB for ISCR1;  total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for SCRRS2; total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for IXYZ0;  total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for ICOMP;  total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for IOCC;   total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for BETADF; total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for PHIDF;  total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for THETADF;total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for CXADIA; total=    35.86 MB                 
+ >DDSCAT allocating     0.01 MB for CXZC;   total=    35.86 MB                 
+ >DDSCAT allocating     0.00 MB for CXZW;   total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for CXAOFF; total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for CXALOF; total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for CXALOS; total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for CXALPH; total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for CXE   ; total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for CXSC  ; total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for CXSCR1; total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for CXXI;   total=    35.87 MB                 
+ >DDSCAT allocating     0.00 MB for SCRRS1; total=    35.87 MB                 
+ >DDSCAT                 Total memory allocation =    35.87 MB                 
+            16 = NAT  = number of dipoles in extended target
+         16   1   1 = x,y,z length of extended target (Targ. Frame)
+ >DIELEC about to read file =                                                  
+ >DIELEC ../diel/m1.33_0.01                                          
+ >DIELEC  m = 1.33+0.01i                                                                 
+ >DIELEC  completed reading file =                                             
+ >DIELEC ../diel/m1.33_0.01                                          
+ m= ( 1.3300 , 0.0100),  epsilon= (  1.7688 ,  0.0266)  for material 1
+    0.031264 = AEFF = effective radius (physical units)
+    0.639719 = d/aeff for this target
+    0.500000 = WAVE = wavelength (physical units)
+    0.392875 = k*aeff = 2*pi*aeff/lambda
+    0.251330 = k*d
+ >ALPHA  Lattice dispersion relation for |m|k_0d=0.3343                        
+ >ESELF  PBC with PYD, PZD=    1.00    1.00, GAMMA= 1.00E-02                   
+ >DIRECT_CALC Estimated total cputime required by DIRECT_CALC=    6.91 cpu-sec      
+ >DIRECT_CALC cputime scales as 1/gamma^2                                           
+ >DIRECT_CALC Actual cputime to complete DIRECT_CALC=    6.93 cpu-sec               
+ >TIMEIT  Timing results for: ESELF (first call)                               
+ >TIMEIT     6.927 = CPU time (sec)                                            
+ >ZBCG2  IT=       1 f.err= 3.265E-02                                          
+ >ZBCG2  IT=       2 f.err= 1.494E-06                                          
+ >TIMEIT  Timing results for: PBCGS2                                           
+ >TIMEIT     0.000 = CPU time (sec)                                            
+ Q_abs = 9.725E-03 Q_ext=  1.974E-01
+ >TIMEIT  Timing results for:  SCAT                                            
+ >TIMEIT     0.000 = CPU time (sec)                                            
+ >ALPHA  Lattice dispersion relation for |m|k_0d=0.3343                        
+ >ZBCG2  IT=       1 f.err= 3.266E-02                                          
+ >ZBCG2  IT=       2 f.err= 1.469E-06                                          
+ >TIMEIT  Timing results for: PBCGS2                                           
+ >TIMEIT     0.000 = CPU time (sec)                                            
+ Q_abs = 9.725E-03 Q_ext=  1.974E-01
+ >TIMEIT  Timing results for:  SCAT                                            
+ >TIMEIT     0.000 = CPU time (sec)                                            
+ >DDSCAT  terminates normally
+
+real	0m7.035s
+user	0m6.918s
+sys	0m0.044s
+Sun Feb  7 19:31:14 EST 2010
+runddscat terminated
